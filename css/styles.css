@@ -11599,7 +11599,8 @@ fieldset:disabled .btn {
 }
 html {
   height: 100%;
-  scroll-padding-top: calc(4.5rem - 1px);
+  scroll-padding-top: 10px;
+  scroll-behavior: smooth;
 }
 
 .page-section {
@@ -12339,7 +12340,6 @@ header.masthead .h1 {
 
   .centralizemob {
     display: block;
-    margin: 0 auto;
     text-align: center;
   }
 
